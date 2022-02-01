@@ -1,0 +1,4 @@
+{
+	"layout": "/layouts/plant.html",
+	"permalink": "/plants/{{ plant.name | slug }}/index.html"
+}

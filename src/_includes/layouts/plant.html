@@ -1,0 +1,17 @@
+---
+layout: '/layouts/base.html'
+---
+
+<div class=plant-grid-container>
+	<div class="card">
+		<img class=image src="{{image.path}}" alt="{{image.alt}}"></img>
+		<div class="info-box">
+			<h2 class="plant-name">{{plant.name}}</h2>
+			<h3 class="plant-type">{{plant.type}}</h3>
+			<h4 class="plant-latin-name">{{plant.latin_name}}</h4>
+		</div>
+	</div>
+	<div class="content">
+		{{content|safe}}
+	</div>
+</div>

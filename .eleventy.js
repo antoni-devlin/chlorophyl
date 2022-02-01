@@ -6,9 +6,14 @@ module.exports = config => {
 	config.addPassthroughCopy('./src/scripts/');
 
 	// Returns work items, sorted by display order
-	config.addCollection('recipes', collection => {
-		return collection
-			.getFilteredByGlob('./src/recipes/*.md').reverse()
+	// config.addCollection('plants', collection => {
+	// 	return collection
+	// 		.getFilteredByGlob('./src/plants/*.md').reverse()
+	// });
+
+	config.addCollection('plants', collection => {
+		return collection.getFilteredByGlob("./src/plants/*.md")
+			.sort((a, b) => b.data.plant.name - a.data.plant.name);
 	});
 
 	return {
