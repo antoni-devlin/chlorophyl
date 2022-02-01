@@ -81,25 +81,29 @@ header {
     }
   }
 }
-// Change viewport on mobile
-// @media only screen and (max-width: 950px) {
-//   .plant-grid-container {
-//     grid-template-columns: repeat(auto-fit, minmax(310px, 4fr));
-//   }
-// }
+// Mobile styles for plant page
+@media only screen and (max-width: 815px) {
+  .plant-grid-container {
+    .content {
+      padding-top: 5%;
+    }
+    
+  }
+}
 
 .plant-grid-container {
   display: grid;
-  // grid-template-columns: 1fr 1fr;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  // grid-gap: 20px;
   .content {
+    margin: 0 20%;
     p {
       font-family: arial;
       font-size: 20px;
-      margin-left: 0;
-      margin-right: 10%;
     }
+  }
+  .card {
+    // margin-right: 10%;
+    margin: 0 auto;
   }
 }
 
