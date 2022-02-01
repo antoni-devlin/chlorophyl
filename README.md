@@ -41,3 +41,13 @@ It come with one Plant Page already, which you can edit and use as a template.
 	# Plant Page Content
 	
 	Etiam ut congue justo. Sed luctus congue odio, sed consequat dolor elementum nec. Quisque commodo vulputate mauris ac tristique. Etiam nibh lorem, blandit quis fermentum sit amet, vulputate a erat. Vivamus efficitur auctor lorem, nec tristique risus porta ut. Mauris id eros ac augue vehicula tincidunt in ac diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent id.
+ 
+ Make copies of this as needed.
+
+ ## Images
+
+ Images are stored in the `src/images` directory. These need to be linked to in the Plant Page template front matter.
+
+	image:
+	  path: "/images/test-plant.jpg"
+	  alt: "Some alt text for your plant image!"
