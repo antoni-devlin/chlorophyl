@@ -93,11 +93,6 @@ header {
   // grid-template-columns: 1fr 1fr;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   // grid-gap: 20px;
-  .card {
-    // width: 50%;
-    // margin: 0 auto;
-    // margin: 10px;
-  }
   .content {
     p {
       font-family: arial;
@@ -105,5 +100,13 @@ header {
       margin-left: 0;
       margin-right: 10%;
     }
+  }
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  a{
+    text-decoration: none;
   }
 }
