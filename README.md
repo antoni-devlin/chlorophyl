@@ -1,5 +1,5 @@
 # Chlorophyl - A statically generated plant database.
-Made with Eleventy.
+Catalogue all your plants! Made with Eleventy.
 
 ## Installation
 
